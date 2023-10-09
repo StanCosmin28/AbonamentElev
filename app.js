@@ -33,15 +33,15 @@ var downloadTimer = setInterval(function () {
 startCountdown(); */
 
 function startCountdown() {
-  var timeleft = 13;
+  let timeleft = 13;
 
-  var downloadTimer = setInterval(function () {
+  let downloadTimer = setInterval(function () {
     if (timeleft <= 0) {
       clearInterval(downloadTimer);
       document.getElementById("countdown").innerHTML = " ";
 
       // Schimbă imaginea
-      var imgElement = document.getElementById("codprincipal");
+      let imgElement = document.getElementById("codprincipal");
       if (imgElement.src.endsWith("me1.png")) {
         imgElement.src = "me2.png";
       } else {

@@ -126,7 +126,7 @@ body {
   flex-direction: row;
   width: 18px;
   height: 18px;
-  background-color: #0000fe;
+  background-color: yellow;
   border-radius: 4px;
 }
 .minibox-div > h4 {
@@ -142,6 +142,12 @@ body {
   background-color: rgba(245, 245, 245, 0.85);
   border-radius: 7px;
   margin-top: 5px;
+}
+.bara-valabilitate-timp {
+  background-color: green;
+  width: 10%;
+  height: 18px;
+  border-radius: 7px 0px 0px 7px;
 }
 .timp-valabilitate {
   display: flex;
@@ -231,4 +237,11 @@ body {
 .footer-box > img:hover {
   scale: 80%;
   transition: 0.2s;
+}
+/* footer containerul poate fi dezactivatr in functie 
+de tipul de telefon pe care se foloseste aplicatia
+la iPhone va aparea, iar la Android nu 
+ */
+.footer-container {
+  display: none;
 }
