@@ -126,7 +126,7 @@ body {
   flex-direction: row;
   width: 18px;
   height: 18px;
-  background-color: lightgreen;
+  background-color: yellow;
   border-radius: 4px;
 }
 .minibox-div > h4 {
